@@ -1,0 +1,28 @@
+.shop{
+    font-size: 1px;
+    
+}
+.navbar{
+    background-color: rgb(85, 72, 2);
+}
+.switch{
+    background-color: rgb(85, 72, 2);
+    animation: changeBackgroundColor 7s infinite;
+}
+.img{
+  border: none;
+  background-color: transparent;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #001F3F;
+  }
+  50% {
+    background-color: #B76E79;
+  }
+  100% {
+    background-color: #C0C0C0;
+    color: black;
+  } 
+}

@@ -1,0 +1,30 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .chatbot-toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+    /*margin: 0 0 350px 0;*/
+  }
+  
+  .chatbot-widget {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 430px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px 5px 0 0;
+  }
+  

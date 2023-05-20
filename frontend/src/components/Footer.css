@@ -1,0 +1,36 @@
+.footer {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .footer-icons {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .paypal-icon {
+    color: #009cde;
+    animation: pulse 2s infinite;
+  }
+  
+  .credit-card-icon {
+    color: #ffc107;
+    animation: pulse 2s infinite reverse;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .text-muted {
+    font-size: 14px;
+  }
+  

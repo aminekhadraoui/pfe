@@ -1,0 +1,9 @@
+.color{
+    transition: color 2s;
+}
+.color:hover{
+    color:rgba(0, 0, 0, 0.788);
+    background-color: rgba(255,215,0,0.5);
+    
+    transition: color 2s;
+}
